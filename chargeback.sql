@@ -1,8 +1,8 @@
 -- CHARGEBACK --
 -- Configure Snowflake Chargeback / Attribute Costs --
 -- 01/19/2024, Tim Spreitzer
--- https://github.com/tspreitzer/snowflake/chargeback.sql
----- I invite you to download scripts for your use. Download, modify, use, and share as desired.
+-- https://github.com/tspreitzer/snowflake/blob/main/chargeback.sql
+---- I invite you to download scripts for your use. Download, modify, use, and share as desired. 
 -- This feature requires Enterprise Edition or higher. --
 -- MAC Keyboard Shortcuts -- <Command><Shift><?> --
 ---- <Command><Enter> = Execute current statement
@@ -16,7 +16,7 @@ use schema ADMIN.DBA;
 
 show tags;              -- List tags in current database.schema --
 
-create tag COST_CENTER
+create tag COST_CENTER 
     allowed_values 'Iron Man', 'Captain America', 'Thor';   -- Parameter 'allowed_values' is optional
 
 show tags;              -- List tags in current database.schema --
