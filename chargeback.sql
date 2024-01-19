@@ -4,9 +4,10 @@
 -- https://github.com/tspreitzer/snowflake/blob/main/chargeback.sql
 ---- I invite you to download scripts for your use. Download, modify, use, and share as desired.
 -- This feature requires Enterprise Edition or higher. --
--- MAC Keyboard Shortcuts -- <Command><Shift><?> --
----- <Command><Enter> = Execute current statement
----- <Control><Option><Down Arrow> = Make bottom pane smaller
+-- Keyboard Shortcuts MAC -- <Command><Shift><?> --
+-- Keyboard Shortcuts Windows -- <Control><Shift><?> --
+---- MAC: <Command><Enter> = Execute current statement
+---- MAC: <Control><Option><Down Arrow> = Make bottom pane smaller
 
 use role ACCOUNTADMIN;
 
