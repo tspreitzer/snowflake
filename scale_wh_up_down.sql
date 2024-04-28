@@ -56,7 +56,7 @@ show warehouses like 'TASTY_BI_WH';
 
 -- #6) Create a Streamlit app
 
--- #7) Third-party apps to run scripts & apps
+-- #7) Third-party apps to run scripts
 
 -- #8) What are some other methods not listed here?
 
